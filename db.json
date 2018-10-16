@@ -5,6 +5,12 @@
       "title": "hello"
     }
   ],
+  "restaurants": [
+    {
+      "id": 1,
+      "title": "hello"
+    }
+  ],
   "profile": {
     "name": "typicode"
   }
