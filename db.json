@@ -7,18 +7,172 @@
   ],
   "restaurants": [
     {
-      "id": 1,
-      "title": "hello"
+      "res_id": 1,
+      "res_name": "Royal China",
+	  "res_image_url": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/2/l/s/p2276-143765154355b0d2572c77b.jpg",
+	  "area": "Fort",
+	  "cusines": [
+		"Chinese",
+		"Sushi"
+	  ],
+	  "listing_type": "Popular",
+	  "delivery_time": "45 mins"	  
     },
 	{
-      "id": 2,
-      "title": "hello2"
+      "res_id": 2,
+      "res_name": "Kuai Kitchen",
+	  "res_image_url": "https://www.franchiseindia.com/uploads/content/ri/int/cafeyell1-1477e187cb.jpg",
+	  "area": "Lower parel",
+	  "cusines": [
+		"Asian",
+		"Sushi"
+	  ],
+	  "listing_type": "Popular",
+	  "delivery_time": "60 mins"
     },
 	{
-      "id": 3,
-      "title": "hello3"
+      "res_id": 3,
+      "res_name": "Hello Green",
+	  "res_image_url": "https://content3.jdmagicbox.com/comp/mumbai/y9/022pxx22.xx22.180531130449.h1y9/catalogue/hello-green-near-andheri-west-station-mumbai-home-delivery-restaurants-rzk2n.jpg",
+	  "area": "Worli",
+	  "cusines": [
+		"Chinese",
+		"Japanese"
+	  ],
+	  "listing_type": "Popular",
+	  "delivery_time": "40 mins"
     }
   ],
+"menu"[
+		{
+		"item_id": 1,
+		"res_id":1,
+		"item_name": "Hot and Sour Soup",
+		"item_type": "Soup",
+		"itme_price": 350,
+		"is_nonveg": false
+		},
+		{
+		"item_id": 2,
+		"res_id":1,
+		"item_name": "Duck Noodle Soup",
+		"item_type": "Soup",
+		"itme_price": 550,
+		"is_nonveg": true
+		},
+		{
+		"item_id": 3,
+		"res_id":1,
+		"item_name": "Crispy Seaweed",
+		"item_type": "Starter",
+		"itme_price": 350,
+		"is_nonveg": false
+		},
+		{
+		"item_id": 4,
+		"res_id":1,
+		"item_name": "Bacon Wrapped Prawns",
+		"item_type": "Starter",
+		"itme_price": 775,
+		"is_nonveg": true
+		},
+		{
+		"item_id": 5,
+		"res_id":1,
+		"item_name": "Sauteed Morning Glory",
+		"item_type": "Main Course",
+		"itme_price": 625,
+		"is_nonveg": false
+		},
+		{
+		"item_id": 6,
+		"res_id":1,
+		"item_name": "Schezwan Chicken",
+		"item_type": "Main Course",
+		"itme_price": 725,
+		"is_nonveg": true
+		},
+		{
+		"item_id": 7,
+		"res_id":1,
+		"item_name": "Honey Noodles",
+		"item_type": "Dessert",
+		"itme_price": 350,
+		"is_nonveg": false
+		},
+		{
+		"item_id": 8,
+		"res_id":1,
+		"item_name": "Chocolate Mud Cake",
+		"item_type": "Dessert",
+		"itme_price": 375,
+		"is_nonveg": false
+		},
+		{
+		"item_id": 9,
+		"res_id":2,
+		"item_name": "Veg Sweet Corn Soup",
+		"item_type": "Soup",
+		"itme_price": 250,
+		"is_nonveg": false
+		},
+		{
+		"item_id": 10,
+		"res_id":2,
+		"item_name": "Prawns Wanton Soup",
+		"item_type": "Soup",
+		"itme_price": 275,
+		"is_nonveg": true
+		},
+		{
+		"item_id": 11,
+		"res_id":2,
+		"item_name": "Spring Roll",
+		"item_type": "Starter",
+		"itme_price": 265,
+		"is_nonveg": false
+		},
+		{
+		"item_id": 12,
+		"res_id":2,
+		"item_name": "Dynamite Prawns",
+		"item_type": "Starter",
+		"itme_price": 495,
+		"is_nonveg": true
+		},
+		{
+		"item_id": 13,
+		"res_id":2,
+		"item_name": "Fiery Mapo Tofu",
+		"item_type": "Main Course",
+		"itme_price": 385,
+		"is_nonveg": false
+		},
+		{
+		"item_id": 14,
+		"res_id":2,
+		"item_name": "Chicken Chilli",
+		"item_type": "Main Course",
+		"itme_price": 395,
+		"is_nonveg": true
+		},
+		{
+		"item_id": 15,
+		"res_id":2,
+		"item_name": "Chocolate Wantons",
+		"item_type": "Dessert",
+		"itme_price": 275,
+		"is_nonveg": false
+		},
+		{
+		"item_id": 16,
+		"res_id":2,
+		"item_name": "Chocolate Panda Bao",
+		"item_type": "Dessert",
+		"itme_price": 275,
+		"is_nonveg": false
+		}
+	],  
   "profile": {
     "name": "typicode"
   }
