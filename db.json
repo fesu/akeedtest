@@ -6,7 +6,7 @@
     }
   ],
   {
-	"success":true
+	"success":true,
 	"restaurants": [
     {
       "res_id": 1,
@@ -47,7 +47,7 @@
   ]
   },
   {
-  "success":true
+  "success":true,
   "menu":[
 		{
 		"item_id": 1,
