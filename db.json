@@ -5,7 +5,9 @@
       "title": "hello"
     }
   ],
-  "restaurants": [
+  {
+	"success":true
+	"restaurants": [
     {
       "res_id": 1,
       "res_name": "Royal China",
@@ -42,8 +44,11 @@
 	  "listing_type": "Popular",
 	  "delivery_time": "40 mins"
     }
-  ],
-"menu":[
+  ]
+  },
+  {
+  "success":true
+  "menu":[
 		{
 		"item_id": 1,
 		"res_id":1,
@@ -236,7 +241,8 @@
 		"itme_price": 199,
 		"is_nonveg": false
 		}
-	],  
+	]
+  },
   "profile": {
     "name": "typicode"
   }
