@@ -54,7 +54,7 @@
 		"res_id":1,
 		"item_name": "Hot and Sour Soup",
 		"item_type": "Soup",
-		"itme_price": 350,
+		"item_price": 350,
 		"is_nonveg": false
 		},
 		{
@@ -62,7 +62,7 @@
 		"res_id":1,
 		"item_name": "Duck Noodle Soup",
 		"item_type": "Soup",
-		"itme_price": 550,
+		"item_price": 550,
 		"is_nonveg": true
 		},
 		{
@@ -70,7 +70,7 @@
 		"res_id":1,
 		"item_name": "Crispy Seaweed",
 		"item_type": "Starter",
-		"itme_price": 350,
+		"item_price": 350,
 		"is_nonveg": false
 		},
 		{
@@ -78,7 +78,7 @@
 		"res_id":1,
 		"item_name": "Bacon Wrapped Prawns",
 		"item_type": "Starter",
-		"itme_price": 775,
+		"item_price": 775,
 		"is_nonveg": true
 		},
 		{
@@ -86,7 +86,7 @@
 		"res_id":1,
 		"item_name": "Sauteed Morning Glory",
 		"item_type": "Main Course",
-		"itme_price": 625,
+		"item_price": 625,
 		"is_nonveg": false
 		},
 		{
@@ -94,7 +94,7 @@
 		"res_id":1,
 		"item_name": "Schezwan Chicken",
 		"item_type": "Main Course",
-		"itme_price": 725,
+		"item_price": 725,
 		"is_nonveg": true
 		},
 		{
@@ -102,7 +102,7 @@
 		"res_id":1,
 		"item_name": "Honey Noodles",
 		"item_type": "Dessert",
-		"itme_price": 350,
+		"item_price": 350,
 		"is_nonveg": false
 		},
 		{
@@ -110,7 +110,7 @@
 		"res_id":1,
 		"item_name": "Chocolate Mud Cake",
 		"item_type": "Dessert",
-		"itme_price": 375,
+		"item_price": 375,
 		"is_nonveg": false
 		},
 		{
@@ -118,7 +118,7 @@
 		"res_id":2,
 		"item_name": "Veg Sweet Corn Soup",
 		"item_type": "Soup",
-		"itme_price": 250,
+		"item_price": 250,
 		"is_nonveg": false
 		},
 		{
@@ -126,7 +126,7 @@
 		"res_id":2,
 		"item_name": "Prawns Wanton Soup",
 		"item_type": "Soup",
-		"itme_price": 275,
+		"item_price": 275,
 		"is_nonveg": true
 		},
 		{
@@ -134,7 +134,7 @@
 		"res_id":2,
 		"item_name": "Spring Roll",
 		"item_type": "Starter",
-		"itme_price": 265,
+		"item_price": 265,
 		"is_nonveg": false
 		},
 		{
@@ -142,7 +142,7 @@
 		"res_id":2,
 		"item_name": "Dynamite Prawns",
 		"item_type": "Starter",
-		"itme_price": 495,
+		"item_price": 495,
 		"is_nonveg": true
 		},
 		{
@@ -150,7 +150,7 @@
 		"res_id":2,
 		"item_name": "Fiery Mapo Tofu",
 		"item_type": "Main Course",
-		"itme_price": 385,
+		"item_price": 385,
 		"is_nonveg": false
 		},
 		{
@@ -158,7 +158,7 @@
 		"res_id":2,
 		"item_name": "Chicken Chilli",
 		"item_type": "Main Course",
-		"itme_price": 395,
+		"item_price": 395,
 		"is_nonveg": true
 		},
 		{
@@ -166,7 +166,7 @@
 		"res_id":2,
 		"item_name": "Chocolate Wantons",
 		"item_type": "Dessert",
-		"itme_price": 275,
+		"item_price": 275,
 		"is_nonveg": false
 		},
 		{
@@ -174,7 +174,7 @@
 		"res_id":2,
 		"item_name": "Chocolate Panda Bao",
 		"item_type": "Dessert",
-		"itme_price": 275,
+		"item_price": 275,
 		"is_nonveg": false
 		},
 		{
@@ -182,7 +182,7 @@
 		"res_id":3,
 		"item_name": "Roma Tomato Soup",
 		"item_type": "Soup",
-		"itme_price": 250,
+		"item_price": 250,
 		"is_nonveg": false
 		},
 		{
@@ -190,7 +190,7 @@
 		"res_id":3,
 		"item_name": "Seafood Bisque",
 		"item_type": "Soup",
-		"itme_price": 400,
+		"item_price": 400,
 		"is_nonveg": true
 		},
 		{
@@ -198,7 +198,7 @@
 		"res_id":3,
 		"item_name": "Napoli Panini",
 		"item_type": "Starter",
-		"itme_price": 350,
+		"item_price": 350,
 		"is_nonveg": false
 		},
 		{
@@ -206,7 +206,7 @@
 		"res_id":3,
 		"item_name": "Chicken Wrapster",
 		"item_type": "Starter",
-		"itme_price": 400,
+		"item_price": 400,
 		"is_nonveg": true
 		},
 		{
@@ -214,7 +214,7 @@
 		"res_id":3,
 		"item_name": "Lasanga soya mince",
 		"item_type": "Main Course",
-		"itme_price": 300,
+		"item_price": 300,
 		"is_nonveg": false
 		},
 		{
@@ -222,7 +222,7 @@
 		"res_id":3,
 		"item_name": "Cuban Spiced Chicken",
 		"item_type": "Main Course",
-		"itme_price": 400,
+		"item_price": 400,
 		"is_nonveg": true
 		},
 		{
@@ -230,7 +230,7 @@
 		"res_id":3,
 		"item_name": "Tripple Berry",
 		"item_type": "Dessert",
-		"itme_price": 199,
+		"item_price": 199,
 		"is_nonveg": false
 		},
 		{
@@ -238,7 +238,7 @@
 		"res_id":3,
 		"item_name": "Green Matcha",
 		"item_type": "Dessert",
-		"itme_price": 199,
+		"item_price": 199,
 		"is_nonveg": false
 		}
 	]
