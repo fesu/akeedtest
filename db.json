@@ -13,7 +13,7 @@
       "res_name": "Royal China",
 	  "res_image_url": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/2/l/s/p2276-143765154355b0d2572c77b.jpg",
 	  "area": "Fort",
-	  "cusines": [
+	  "cuisines": [
 		"Chinese",
 		"Sushi"
 	  ],
@@ -25,7 +25,7 @@
       "res_name": "Kuai Kitchen",
 	  "res_image_url": "https://www.franchiseindia.com/uploads/content/ri/int/cafeyell1-1477e187cb.jpg",
 	  "area": "Lower parel",
-	  "cusines": [
+	  "cuisines": [
 		"Asian",
 		"Sushi"
 	  ],
@@ -37,7 +37,7 @@
       "res_name": "Hello Green",
 	  "res_image_url": "https://content3.jdmagicbox.com/comp/mumbai/y9/022pxx22.xx22.180531130449.h1y9/catalogue/hello-green-near-andheri-west-station-mumbai-home-delivery-restaurants-rzk2n.jpg",
 	  "area": "Worli",
-	  "cusines": [
+	  "cuisines": [
 		"Chinese",
 		"Japanese"
 	  ],
