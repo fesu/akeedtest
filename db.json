@@ -5,9 +5,9 @@
       "title": "hello"
     }
   ],
-  {
+  "restaurants": {
 	"success":true,
-	"restaurants": [
+	"restaurantList": [
     {
       "res_id": 1,
       "res_name": "Royal China",
@@ -46,9 +46,9 @@
     }
   ]
   },
-  {
-  "success":true,
-  "menu":[
+  "menu":{
+	"success":true,
+	"menuList":[
 		{
 		"item_id": 1,
 		"res_id":1,
