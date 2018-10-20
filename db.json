@@ -43,6 +43,29 @@
 	  ],
 	  "listing_type": "Popular",
 	  "delivery_time": "40 mins"
+    },
+	{
+      "res_id": 1,
+      "res_name": "Oriental Kitchen",
+	  "res_image_url": "https://content3.jdmagicbox.com/comp/mumbai/l5/022pxx22.xx22.170119084744.z7l5/catalogue/jia-the-oriental-kitchen-colaba-mumbai-pan-asian-restaurants-pnn1dq8j1f.jpg",
+	  "area": "Colaba",
+	  "cuisines": [
+		"Sushi"
+	  ],
+	  "listing_type": "Popular",
+	  "delivery_time": "30 mins"	  
+    },
+	{
+      "res_id": 2,
+      "res_name": "Bistro",
+	  "res_image_url": "http://www.foodhoggers.com/admin/img/place/P015/5.jpg",
+	  "area": "Fort",
+	  "cuisines": [
+		"Sushi",
+		"Asian"
+	  ],
+	  "listing_type": "Popular",
+	  "delivery_time": "50 mins"	  
     }
   ]
   },
