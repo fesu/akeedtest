@@ -28,6 +28,7 @@ import java.util.Map;
 public class GetMenuListService {
 
     private final Context context;
+    private final long res_id;
 
     RequestQueue mRequestQueue;
 
@@ -35,8 +36,9 @@ public class GetMenuListService {
 
     String responseStatus = "";
 
-    public GetMenuListService(Context context) {
+    public GetMenuListService(Context context, long res_id) {
         this.context = context;
+        this.res_id = res_id;
 
         TAG = this.context.getClass().getSimpleName();
     }
@@ -54,7 +56,7 @@ public class GetMenuListService {
         // Start the queue
         mRequestQueue.start();
 
-        String url = WSUrls.KEY_WS_GET_MENU_LIST;
+        String url = WSUrls.KEY_WS_GET_MENU_LIST + "?res_id=" + res_id;
 
         final Gson gson = new Gson();
         JSONObject jsonObject = new JSONObject();
@@ -66,7 +68,7 @@ public class GetMenuListService {
         }*/
 
 
-        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.POST, url, jsonObject, new Response.Listener<JSONObject>() {
+        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, jsonObject, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject obj) {
                 Log.d(TAG, obj.toString());

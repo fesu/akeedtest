@@ -1,6 +1,7 @@
 package com.akeedtest.android.adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -10,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.akeedtest.android.MenuListActivity;
 import com.akeedtest.android.R;
 import com.akeedtest.android.listeners.OnRestaurantSelectListener;
 import com.akeedtest.android.models.RestaurantListModel;
@@ -18,6 +20,8 @@ import com.bumptech.glide.Glide;
 import java.util.List;
 
 public class RestaurantListAdapter extends RecyclerView.Adapter<RestaurantListAdapter.MyViewHolder> {
+
+    public static final String EXTRA_RES_DETAILS = "EXTRA_RES_DETAILS";
 
     private List<RestaurantListModel> restaurantList;
     private OnRestaurantSelectListener onRestaurantSelectListener;
@@ -71,13 +75,17 @@ public class RestaurantListAdapter extends RecyclerView.Adapter<RestaurantListAd
         holder.iv_res_banner.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, imageHeight));
         //int width = displayMetrics.widthPixels;
 
-        /*holder.ln_container.setOnClickListener(new View.OnClickListener() {
+        holder.iv_res_banner.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //CommonUtilities.getDefaultFragmentManager().popBackStack();
                 onRestaurantSelectListener.onRestaurantSelect(restaurantListModel);
+
+                Intent intent = new Intent(context, MenuListActivity.class);
+                intent.putExtra(EXTRA_RES_DETAILS, restaurantListModel);
+                context.startActivity(intent);
             }
-        });*/
+        });
 
     }
 

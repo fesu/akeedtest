@@ -86,15 +86,15 @@ public class RestaurantListActivity extends AppCompatActivity implements OnResta
                             tv_empty_data.setVisibility(View.GONE);
                             rcv_restaurant_list.setVisibility(View.VISIBLE);
 
-                            restaurantListAdapter = new RestaurantListAdapter(restaurantList, RestaurantListActivity.this);
+                            restaurantListAdapter = new RestaurantListAdapter(restaurantList, RestaurantListActivity.this, activity);
                             restaurantListAdapter.notifyDataSetChanged();
                             rcv_restaurant_list.setAdapter(restaurantListAdapter);
                         }
                     }
                     else {
-                        /*ln_no_data.setVisibility(View.VISIBLE);
-                        rcv_car_list.setVisibility(View.GONE);
-                        tv_no_data.setText("Car not available");*/
+                        tv_empty_data.setVisibility(View.VISIBLE);
+                        rcv_restaurant_list.setVisibility(View.GONE);
+                        tv_empty_data.setText(R.string.empty_data);
 
                         AlertDialog.Builder builder;
                         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
